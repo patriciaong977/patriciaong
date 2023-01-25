@@ -122,10 +122,10 @@ img {
 
 .section__title {
   font-size: var(--h1-font-size);
-  margin-bottom: 0.875rem;
+  margin-left: 0.875rem;
   font-weight: var(--font-bold);
   position: relative;
-  margin-bottom: 3.75rem;
+  margin-bottom: 2.75rem;
 }
 
 .section_title::before {
