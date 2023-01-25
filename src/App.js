@@ -11,16 +11,17 @@ import Contact from './components/contact/Contact';
 
 const App = () => {
   return (
-    <Sidebar>
-      <main className='main'>
+    <>
+      <Sidebar />
+      <main className="main">
         <Home />
         <About />
         <Resume />
         <Portfolio />
         <Contact />
       </main>
-    </Sidebar>
-  )
-}
+    </>
+  );
+};
 
 export default App;
