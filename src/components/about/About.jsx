@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import "./about.css";
 
 import Image from "../../assets/isha.jpg";
@@ -6,50 +6,69 @@ import Image from "../../assets/isha.jpg";
 const About = () => {
   return (
     <section className="about container section" id='about'>
-      {/* About Title */}
       <h2 className="section__title">About Me</h2>
 
-      {/* About Img */}
       <div className="about__container grid">
-        {/* <img src={Image} alt="" className="about__img" style={{borderRadius: '50%'}} /> */}
-      </div>
+        <img src={Image} alt="" className="about__img" style={{ borderRadius: '50%' }} />
 
-      <br></br>
+        <div className="about__data grid">
+          <div className="about__info">
 
-      {/* About Info */}
-      <div className="about__data grid">
-        <div className="about__info">
-          <p className="about__description">
-            🙋‍♀️ Hi! My name's Patricia Ong. I have experience in mobile development, and web development.
-            <p> 😄 She/Her </p>
-            <p> 👩🏻‍🎓 Recent Graduate of California State University, Fullerton (CSUF) with a Bachelor of Science in Computer Science. 🐘 . </p>
-            <p>🌇 Born in the Philippines. Living in the US and eager to pursue knowledge, experience, and connections to enhance my technical and professional capabilities. </p>
-            <p> 🌱Currently learning, everything. 😆</p>
-            <p>💻 I hope to one day work in the tech field. As a female Filipino immigrant, I hope to work with a diverse team.</p>
-            <p>⚡ Fun fact: I like building Ikea furniture, and Gundam Models. As well as taking travel photos with my trusty Nikon D5300 or Iphone. </p>
-          </p>
+            <p className="about__description">🙋🏻‍♀️ Hi! My name's Patricia. </p>
+            <p className="about__description">👩🏻‍🎓 Recent Graduate of California State University, Fullerton with a Bachelor of Science in Computer Science.</p>
+            <p className="about__description">🌇 Born in the Philippines, living in the US and eager to pursue knowledge, experience, and connections to enhance my technical and professional skills.</p>
+            <p className="about__description">⚡ Fun fact: I like building Ikea furniture, and Gundam Models. As well as taking travel photos with my trusty Nikon D5300 or Iphone.</p>
+            <p className="about__description">👩🏻‍💻 I'm currently looking for a full-time position as a Software Engineer/Developer.</p>
 
-          <br></br>
+            <a href="" className="btn">Download Resume</a>
+          </div>
 
-          <a href="" className="btn">Download Resume</a>
-        </div>
-
-        <br></br>
-
-        <div className="about__skills grid">
-          <div className="skills__data">
-            <div className="skills__titles">
-              <h3 className="skills__name">Development</h3>
-              <span className="skills__number">90%</span>
+          <div className="about__skills grid">
+            <div className="skills__data">
+              <div className="skills__titles">
+                <h3 className="skills__name">Programming Languages</h3>
+                <p className="skills__description">Python, SQL, Swift, HTML/CSS, JavaScript, C++</p>
+              </div>
             </div>
 
-            <div className="skills__bar">
-              <span className="skills__percentage"></span>
+            <div className="skills__data">
+              <div className="skills__titles">
+                <h3 className="skills__name">Tools and Frameworks</h3>
+                <p className="skills__description">VS Code, XCode, Git, Github, PEGA Systems, MongoDB, MariaDB, SwiftUI, Node.js, React.js</p>
+              </div>
+            </div>
+
+            <div className="skills__data">
+              <div className="skills__titles">
+                <h3 className="skills__name">Operating Systems</h3>
+                <p className="skills__description">Windows, macOS, Linux</p>
+              </div>
+            </div>
+
+            <div className="skills__data">
+              <div className="skills__titles">
+                <h3 className="skills__name">Other relevant skills</h3>
+                <p className="skills__description">Agile Methodologies, Broadcom Rally, Visual Paradigm, Figma, Microsoft Office</p>
+              </div>
+            </div>
+
+            <div className="skills__data">
+              <div className="skills__titles">
+                <h3 className="skills__name">Other skills</h3>
+                <p className="skills__description">Photography, Detail-oriented, Organizational, Time management, Teamwork, Problem Solving, Communication, Adaptibility, Creativity, Leadership</p>
+              </div>
+            </div>
+            <div className="skills__data">
+              <div className="skills__titles">
+                <h3 className="skills__name">Gallup Analytics</h3>
+                <p className="skills__description">Analytical, Restorative, Discipline, Individualization, Responsibility</p>
+              </div>
             </div>
 
           </div>
-        </div>
 
+
+        </div>
       </div>
     </section>
   )
