@@ -3,6 +3,7 @@ import "./about.css";
 
 import Image from "../../assets/isha.jpg";
 import AboutBox from './AboutBox';
+import RFile from "../../assets/PO_Resume.pdf";
 
 const About = () => {
   return (
@@ -24,7 +25,7 @@ const About = () => {
 
             <br/>
 
-            <a href="" className="btn">Download Resume</a>
+            <a href={RFile} className="btn">Download Resume</a>
           </div>
           <div className="about__skills grid">
             <div className="skills__data">
@@ -70,6 +71,7 @@ const About = () => {
           </div>
         </div>
       </div>
+
       <AboutBox />
     </section>
 

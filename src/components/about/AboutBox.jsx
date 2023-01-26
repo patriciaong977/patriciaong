@@ -49,11 +49,11 @@ const AboutBox = () => {
       </div>
 
       <div className="about__box">
-        <i className="about__icon icon-puzzle"></i>
+        <i className="about__icon icon-bubble"></i>
 
         <div>
-          <h3 className="about__title">5</h3>
-          <span className="about__subtitle">Gundam Models Built</span>
+          <h3 className="about__title">English & Filipino</h3>
+          <span className="about__subtitle">Languages Spoken</span>
         </div>
       </div>
 
