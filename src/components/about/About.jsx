@@ -3,7 +3,10 @@ import "./about.css";
 
 import Image from "../../assets/isha.jpg";
 import AboutBox from './AboutBox';
-import RFile from "../../assets/PO_Resume.pdf";
+import RFile from "<div className="" />
+<div className="" />
+<assets />
+<PO_Resume_GH></PO_Resume_GH>.pdf";
 
 const About = () => {
   return (
