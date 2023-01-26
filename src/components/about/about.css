@@ -29,7 +29,7 @@
 }
 
 .about__description {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   text-align: justify;
 }
 
@@ -55,4 +55,25 @@
   padding-left: 1.5rem;
   font-size: var(--small-font-size);
   /* background-color: aqua; */
+}
+
+.about__boxes {
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1.875rem;
+  margin-top: 1.25rem;
+}
+
+.about__box {
+  display: flex;
+  column-gap: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.about__icon {
+  font-size: var(--h1-font-size);
+  color: #dedeea;
+}
+
+.about__title {
+  font-size: 1.875rem;;
 }
