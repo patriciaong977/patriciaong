@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/patriciaong977.github.io/static/css/main.5b328bad.css",
-    "main.js": "/patriciaong977.github.io/static/js/main.2321262e.js",
-    "static/media/isha.jpg": "/patriciaong977.github.io/static/media/isha.a2a1afc9506976483e87.jpg",
-    "static/media/PO_Resume_GH.pdf": "/patriciaong977.github.io/static/media/PO_Resume_GH.770c3647f2ec638e01f8.pdf",
-    "static/media/logo.svg": "/patriciaong977.github.io/static/media/logo.8c2fb23675dc34b2041044d6dd41e4e3.svg",
-    "static/media/dots-bg.svg": "/patriciaong977.github.io/static/media/dots-bg.aa8289c51cd678b8cd47.svg",
-    "index.html": "/patriciaong977.github.io/index.html",
-    "main.5b328bad.css.map": "/patriciaong977.github.io/static/css/main.5b328bad.css.map",
-    "main.2321262e.js.map": "/patriciaong977.github.io/static/js/main.2321262e.js.map"
+    "main.css": "/patriciaong/static/css/main.4873093a.css",
+    "main.js": "/patriciaong/static/js/main.17fe2005.js",
+    "static/media/isha.jpg": "/patriciaong/static/media/isha.a2a1afc9506976483e87.jpg",
+    "static/media/PO_Resume_GH.pdf": "/patriciaong/static/media/PO_Resume_GH.770c3647f2ec638e01f8.pdf",
+    "static/media/logo.svg": "/patriciaong/static/media/logo.8c2fb23675dc34b2041044d6dd41e4e3.svg",
+    "static/media/dots-bg.svg": "/patriciaong/static/media/dots-bg.aa8289c51cd678b8cd47.svg",
+    "index.html": "/patriciaong/index.html",
+    "main.4873093a.css.map": "/patriciaong/static/css/main.4873093a.css.map",
+    "main.17fe2005.js.map": "/patriciaong/static/js/main.17fe2005.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b328bad.css",
-    "static/js/main.2321262e.js"
+    "static/css/main.4873093a.css",
+    "static/js/main.17fe2005.js"
   ]
 }
