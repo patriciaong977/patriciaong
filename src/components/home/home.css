@@ -16,12 +16,12 @@
   margin-bottom: 1.5rem
 }
 
-.home__name {
+/* .home__name {
   margin-top: 1.5rem;
   font-size: var(--h1-font-size);
   font-weight: var(--font-bold);
   margin-bottom: 0.5rem;
-}
+} */
 
 .home__socials{
   display: flex;
