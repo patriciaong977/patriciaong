@@ -13,23 +13,23 @@ const Contact = () => {
             <br /> Send me an email instead! ¯\_(ツ)_/¯</p>
         </div>
 
-        <form action="" className="contact__form">
+        <form action="" className="contact__form" >
           <div className="contact__form-group">
             <div className="contact__form-div">
-              <input type="text" className="contact__form-input" placeholder='Insert your name'/>
+              <input type="text" className="contact__form-input" placeholder='Insert your name' required/>
             </div>
 
             <div className="contact__form-div">
-              <input type="email" className="contact__form-input" placeholder='Insert your email'/>
+              <input type="email" className="contact__form-input" placeholder='Insert your email'required/>
             </div>
           </div>
 
           <div className="contact__form-div">
-              <input type="text" className="contact__form-input" placeholder='Insert your subject'/>
+              <input type="text" className="contact__form-input" placeholder='Insert your subject'required/>
           </div>
 
           <div className="contact__form-div contact__form-area">
-            <textarea name="" id="" cols="30" rows="10" className='contact__form-input' placeholder='Write your message here'></textarea>
+            <textarea name="" id="" cols="30" rows="10" className='contact__form-input' placeholder='Write your message here' required></textarea>
           </div>
 
           <button className="btn">Send Message! 💬</button>
