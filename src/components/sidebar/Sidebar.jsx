@@ -1,13 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import "./sidebar.css";
 import Logo from "../../assets/logo.svg";
 
-const Sidebar = () => {
-  // For responsive sidebar toggle menu.
-  const [toggle, showMenu] = useState(false);
+const sidebar = () => {
   return (
     <>
-    <aside className={toggle ? "aside show-menu" : "aside"}>
+    <aside className='aside'>
       {/* --- Logo --- */}
       <a href="#home" className="nav__logo">
         {/* <img src={Logo} alt="" /> */}
@@ -64,11 +62,11 @@ const Sidebar = () => {
       </div>
       </aside>
 
-      <div className={toggle ? "nav__toggle nav__toggle-open" : "nav__toggle"} onClick={() => showMenu(!toggle)}>
+      <div className="nav__toggle">
         <i className="icon-menu"></i>
       </div>
     </>
   )
 }
 
-export default Sidebar
+export default sidebar

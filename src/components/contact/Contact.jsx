@@ -4,11 +4,11 @@ import "./contact.css";
 const Contact = () => {
   return (
     <section className="contact container section" id='contact'>
-      <h2 className="section__title">Contact Me!</h2>
+      <h2 className="section__title">WORK IN PROGRESS!</h2>
 
       <div className="contact__container grid">
         <div className="contact__info">
-          <h3 className="contact__title">Hello! 👋 </h3>
+          <h3 className="contact__title">Hello! THIS PAGE IS NOT USABLE YET. STILL A WORK IN PROGRESS👋 </h3>
           <p className="contact__details">I know forms are stinky. 🦨💨
             <br /> Send me an email instead! ¯\_(ツ)_/¯</p>
         </div>
