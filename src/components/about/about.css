@@ -109,7 +109,6 @@
   }
 }
 
-/*Responsive-ness*/
 @media screen and (max-width: 768px) {
   .about__container {
     grid-template-columns: 350px;
