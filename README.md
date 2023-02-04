@@ -1,6 +1,4 @@
-# Portfolio Website
-
-## Welcome to my portfolio website.
+# Welcome to my Portfolio Website!
 ### This is a work in progress and will be updated as I continue to learn and grow as a developer.
 </br>
 
@@ -21,4 +19,4 @@
 - Portfolio Section
 - Contacts Form
 
-Thanks for understanding! 
+Thanks for understanding!
