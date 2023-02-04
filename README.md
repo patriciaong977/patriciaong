@@ -4,14 +4,15 @@
 
 ## Technologies Used
 - React
+  - This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 - HTML
 - CSS
 - JavaScript
 
 </br>
 
-## Notes
-- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
 
 </br>
 
