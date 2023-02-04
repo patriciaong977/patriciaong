@@ -1,4 +1,10 @@
 .main {
   margin-left: 110px;
-  
+}
+
+/*Responsive-ness*/
+@media screen and (max-width: 1024px) {
+  .main {
+    margin-left: 0;
+  }
 }
