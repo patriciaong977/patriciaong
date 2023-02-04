@@ -1,0 +1,23 @@
+/*Responsive-ness*/
+
+/*Responsive-ness*/
+@media screen and (max-width: 1024px) {
+  .portfolio__filters {
+    justify-content: center;
+  }
+  .portfolio__container {
+    grid-template-columns: repeat(2, 330px);
+    justify-content: center;
+    row-gap: 1.875rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .portfolio__container {
+    grid-template-columns: 310px;
+  }
+
+  .portfolio__filters {
+    row-gap: 0.25rem;
+  }
+}

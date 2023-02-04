@@ -4,8 +4,8 @@
   top: 0;
   background: var(--body-color);
   border-right: 1px solid rgba(0, 0, 0 , 0.05);
-  padding: 2.5rem;
-  width: 110px;
+  padding: 1.5rem;
+  width: 80px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -50,6 +50,7 @@
   justify-content: center;
   align-items: center;
   z-index: 1;
+  transition: .3s;
 }
 
 /*Responsive-ness*/
@@ -57,5 +58,16 @@
   .aside {
     left: -110px;
   }
-}
 
+  .nav__toggle {
+    display: flex;
+  }
+
+  .nav__toggle-open {
+    left: 140px;
+  }
+
+  .show-menu {
+    left: 0;
+  }
+}

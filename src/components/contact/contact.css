@@ -48,3 +48,22 @@
 .contact__form-area textarea {
   resize: none;
 }
+
+
+/*Responsive-ness*/
+@media screen and (max-width: 1024px) {
+  .contact__container {
+    grid-template-columns: repeat(300px, 360px);
+    justify-content: center;
+  }
+
+  .contact__form-group {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact__container {
+    grid-template-columns: 310px;
+  }
+}
