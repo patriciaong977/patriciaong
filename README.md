@@ -2,14 +2,16 @@
 ### This is a work in progress and will be updated as I continue to learn and grow as a developer.
 </br>
 
+## Link to live site: https://patriciaong977.github.io
+
+</br>
+
 ## Technologies Used
 - React
   - This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 - HTML
 - CSS
 - JavaScript
-
-
 
 </br>
 
