@@ -37,7 +37,8 @@
 }
 
 .home__social-link:hover {
-  color: hsl(43, 100%, 68%);
+  /* color: hsl(43, 100%, 68%); */
+  color: var(--first-color);
 }
 
 .scroll__down {
@@ -49,10 +50,11 @@
 
 .home__scroll-name {
   font-size: var(--small-font-size);
+  color: var(--title-color);
 }
 
 .mouse {
-  border: 2px solid #454360;
+  border: 2px solid #cf6679;
   display: block;
   height: 1.6rem;
   width: 1.25rem;

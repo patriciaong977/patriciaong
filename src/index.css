@@ -5,11 +5,11 @@
 :root {
   /* ======== Colors ======== */
   /* Color mode HSL(hue, saturation, lightness) */
-  --first-color: hsl(353, 100%, 65%);
-  --title-color: hsl(244, 24%, 26%);
-  --text-color: hsl(244, 16%, 43%);
-  --body-color: hsl(258, 60%, 98%);
-  --container-color: #fff;
+  --first-color: hsl(349, 52%, 61%); /*hsl(353, 100%, 65%);*/
+  --title-color: hsl(174, 97%, 43%);  /*hsl(244, 24%, 26%);*/
+  --text-color: hsl(267, 54%, 80%);   /*hsl(244, 16%, 43%);*/
+  --body-color: hsl(0, 2%, 10%);       /* hsl(258, 60%, 98%); */
+  --container-color: #353434;
 
   /* ======== Font and typography ======== */
   /*.5rem = 8px* | 1rem = 16px ..*/
@@ -27,7 +27,7 @@
   --font-bold: 700;
 
   /* ======== Box Shadow ======== */
-  --shadow: 0px 5px 20px 0px rgb(69 67 96 / 10%);
+  --shadow: 0px 5px 20px 0px rgba(248, 242, 242, 0.1); /*rgb(69 67 96 / 10%);*/
 
   /* ======== Border Radius ======== */
   --border-radius: 20px;
