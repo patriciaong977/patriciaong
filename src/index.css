@@ -6,10 +6,10 @@
   /* ======== Colors ======== */
   /* Color mode HSL(hue, saturation, lightness) */
   --first-color: hsl(349, 52%, 61%); /*hsl(353, 100%, 65%);*/
-  --title-color: hsl(174, 97%, 43%);  /*hsl(244, 24%, 26%);*/
-  --text-color: hsl(267, 54%, 80%);   /*hsl(244, 16%, 43%);*/
-  --body-color: hsl(0, 2%, 10%);       /* hsl(258, 60%, 98%); */
-  --container-color: #353434;
+  --title-color: hsl(174, 97%, 43%); /*hsl(244, 24%, 26%);*/
+  --text-color: hsl(267, 54%, 80%);  /*hsl(244, 16%, 43%);*/
+  --body-color: hsl(0, 2%, 10%);     /* hsl(258, 60%, 98%); */
+  --container-color: #353434;         /* ##fff; */
 
   /* ======== Font and typography ======== */
   /*.5rem = 8px* | 1rem = 16px ..*/

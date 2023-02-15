@@ -1,4 +1,25 @@
-/*Responsive-ness*/
+.work__filters
+{
+  display: flex;
+  align-items: center;
+  column-gap: 1.875rem;
+  margin-bottom: 2.5 rem;
+}
+
+.work__item {
+  cursor: pointer;
+  font-weight: var(--font-bold);
+  transition: .3s;
+}
+
+.work__item:hover {
+  color: var(--first-color);
+}
+
+.work__container {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.875rem;
+}
 
 /*Responsive-ness*/
 @media screen and (max-width: 1024px) {
