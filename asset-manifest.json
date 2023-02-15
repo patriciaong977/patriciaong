@@ -1,17 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.30bf1c28.css",
-    "main.js": "/static/js/main.05431bd2.js",
+    "main.css": "/static/css/main.0b1a9768.css",
+    "main.js": "/static/js/main.26f9e4c7.js",
     "static/media/isha.jpg": "/static/media/isha.a2a1afc9506976483e87.jpg",
     "static/media/PO_Resume_GH.pdf": "/static/media/PO_Resume_GH.770c3647f2ec638e01f8.pdf",
+    "static/media/android.svg": "/static/media/android.b32f9901dae4ff4c7b0835b5d6ad7170.svg",
     "static/media/logo.svg": "/static/media/logo.8c2fb23675dc34b2041044d6dd41e4e3.svg",
     "static/media/dots-bg.svg": "/static/media/dots-bg.aa8289c51cd678b8cd47.svg",
+    "static/media/sql.svg": "/static/media/sql.efb7363b2e231ddf7a5c31626c04099d.svg",
+    "static/media/python.svg": "/static/media/python.439dd3d27dbba23fa07acb94633c7a7d.svg",
+    "static/media/ios.svg": "/static/media/ios.51d7922fd4c857420ad3bcfefdb3a49f.svg",
+    "static/media/reactjs.svg": "/static/media/reactjs.6c1d44b8c59f0f72ff199a54ceed774c.svg",
     "index.html": "/index.html",
-    "main.30bf1c28.css.map": "/static/css/main.30bf1c28.css.map",
-    "main.05431bd2.js.map": "/static/js/main.05431bd2.js.map"
+    "main.0b1a9768.css.map": "/static/css/main.0b1a9768.css.map",
+    "main.26f9e4c7.js.map": "/static/js/main.26f9e4c7.js.map"
   },
   "entrypoints": [
-    "static/css/main.30bf1c28.css",
-    "static/js/main.05431bd2.js"
+    "static/css/main.0b1a9768.css",
+    "static/js/main.26f9e4c7.js"
   ]
 }
