@@ -22,6 +22,9 @@
   font-weight: var(--font-bold);
   margin-bottom: 0.5rem;
 } */
+.home__description {
+  color: var(--other-color);
+}
 
 .home__socials{
   display: flex;

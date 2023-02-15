@@ -46,6 +46,7 @@
 }
 
 .skills__name {
+  color: var(--other-color);
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
   /* background-color: red; */
@@ -81,6 +82,7 @@
 .home__social-link {
   font-size: 1.125rem;
 }
+
 
 /*Responsive-ness*/
 @media screen and (max-width: 1024px) {

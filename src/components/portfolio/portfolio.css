@@ -17,7 +17,7 @@
 }
 
 .work__container {
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.875rem;
 }
 
@@ -69,10 +69,23 @@
   opacity: 0;
 }
 
+.work__tech {
+  color: var(--other-color);
+  font-size: var(--small-font-size);
+  margin: 0 0 0.98rem;
+  padding: 0 1.5rem;
+  position: absolute;
+  top: 5.75rem;
+  bottom: 3.75rem;
+  transform: translateY(30px);
+  transition: .3s;
+  opacity: 0;
+}
+
 .work__button {
   color: #fff;
   position: absolute;
-  bottom: 1.5rem;
+  bottom: 1rem;
   left: 1.5rem;
   font-size: var(--h3-font-size);
   display: block;
@@ -92,7 +105,8 @@
 }
 
 .work__card:hover .work__title,
-.work__card:hover .work__category {
+.work__card:hover .work__category,
+.work__card:hover .work__tech {
   opacity: 1;
   transform: translateY(0);
 }

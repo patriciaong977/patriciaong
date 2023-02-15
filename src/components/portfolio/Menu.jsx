@@ -16,7 +16,7 @@ const Menu = [
     image: Work1,
     title: "Portfolio Website",
     category: "Personal",
-    Tech: "Javascript, HTML, CSS, React",
+    tech: "Javascript, HTML, CSS, React",
     link: "https://patriciaong977.github.io/"
   },
   {
@@ -24,15 +24,15 @@ const Menu = [
     image: Work2,
     title: "Compiler Project",
     category: "School",
-    Tech: "Python",
+    tech: "Python",
     link: "https://github.com/patriciaong977/compilerProject"
   },
   {
     id: 3,
     image: Work3,
-    title: "BudgetMaster Web Application",
+    title: "BudgetMaster Website",
     category: "School",
-    Tech: "Javascript, HTML, CSS, React, MaterialUI",
+    tech: "Javascript, HTML, CSS, React, MaterialUI",
     link: "https://github.com/patriciaong977/budgetmaster"
   },
   ,
@@ -41,7 +41,7 @@ const Menu = [
     image: Work4,
     title: "Skingredients iOS App",
     category: "School",
-    Tech: "Swift, Xcode",
+    tech: "Swift, Xcode",
     link: "https://github.com/patriciaong977/project-team-gr8"
   },
   ,
@@ -50,7 +50,7 @@ const Menu = [
     image: Work5,
     title: "AutoOdo Android App",
     category: "School",
-    Tech: "Java, SQLite, Android Studio",
+    tech: "Java, SQLite, Android Studio",
     link: "https://github.com/patriciaong977/AutoOdo"
   },
   ,
@@ -59,7 +59,7 @@ const Menu = [
     image: Work6,
     title: "University Database",
     category: "School",
-    Tech: "SQL, HTML, PHP",
+    tech: "SQL, HTML, PHP",
     link:"https://github.com/patriciaong977/UniversityDatabase"
   },
   {
@@ -67,7 +67,7 @@ const Menu = [
     image: Work7,
     title: "100-Days-of-Python",
     category: "Personal",
-    Tech: "Python, VSCode",
+    tech: "Python, VSCode",
     link: "https://github.com/patriciaong977/100-Days-of-Python"
   },
   {
@@ -75,7 +75,7 @@ const Menu = [
     image: Work8,
     title: "Blackjack Game",
     category: "Personal",
-    Tech: "Python, VSCode",
+    tech: "Python, VSCode",
     link: "https://github.com/patriciaong977/Blackjack-Capstone-Project"
   },
   {
@@ -83,7 +83,7 @@ const Menu = [
     image: Work9,
     title: "ExpenseTracker iOS App",
     category: "Personal",
-    Tech: "Swift, Xcode, SwiftUIFontIcon, SwiftUICharts",
+    tech: "Swift, Xcode, SwiftUIFontIcon, SwiftUICharts",
     link: "https://github.com/patriciaong977/ExpenseTrackerApp"
   },
   {
@@ -91,7 +91,7 @@ const Menu = [
     image: Work10,
     title: "Higher or Lower Game",
     category: "Personal",
-    Tech: "Python, VSCode",
+    tech: "Python, VSCode",
     link: "https://github.com/patriciaong977/Higher-or-Lower-Project"
   },
 
