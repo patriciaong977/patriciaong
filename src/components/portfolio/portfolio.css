@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   column-gap: 1.875rem;
-  margin-bottom: 2.5 rem;
+  margin-bottom: 2.5rem;
 }
 
 .work__item {
@@ -27,8 +27,8 @@
   border-radius: var(--border-radius);
   box-shadow: var(--shadow);
 }
-.work_mask {
-  background: #da2b2b;  /* Doesn't change? */
+.work__mask {
+  background: #625d5d;  /* Doesn't change? */
   position: absolute;
   left: 0;
   top: 0;
@@ -38,18 +38,18 @@
   opacity: 0;
 }
 
-.work__card:hover .work_mask {
-  opacity: 0.9;
+.work__card:hover .work__mask {
+  opacity: 0.95;
 }
 
 .work__category {
-  color: #6c6ce5;
-  background-color: var(--first-color);
+  color: var(--text-color);
+  background-color: var(--container-color);
   border-bottom-left-radius: 0.98rem;
   border-bottom-right-radius: 0.98rem;
   position: absolute;
   top: 0;
-  left: 1.5 rem;
+  left: 1.5rem;
   font-size: var(--small-font-size);
   display: inline-block;
   padding: 0.19rem 0.625rem;
@@ -58,9 +58,10 @@
 }
 
 .work__title {
-  color: #fff;
+  color: var(--title-color);
   font-size: var(--h3-font-size);
   margin: 0 0 0.98rem;
+  padding: 0 1.5rem;
   position: absolute;
   top: 3.75rem;
   transform: translateY(30px);
@@ -71,11 +72,11 @@
 .work__button {
   color: #fff;
   position: absolute;
-  bottom: 1.5 rem;
-  left: 1.5 rem;
+  bottom: 1.5rem;
+  left: 1.5rem;
   font-size: var(--h3-font-size);
   display: block;
-  background-color: #ffd15c;
+  background-color: var(--first-color);
   height: 40px;
   width: 40px;
   cursor: pointer;
@@ -92,8 +93,8 @@
 
 .work__card:hover .work__title,
 .work__card:hover .work__category {
-  transform: translateY(0);
   opacity: 1;
+  transform: translateY(0);
 }
 
 
