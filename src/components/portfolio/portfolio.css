@@ -100,7 +100,7 @@
 .work__img {
   width: 100%;
 }
-/* Responsive-ness
+Responsive-ness
 @media screen and (max-width: 1024px) {
   .portfolio__filters {
     justify-content: center;
@@ -120,4 +120,4 @@
   .portfolio__filters {
     row-gap: 0.25rem;
   }
-} */
+}
