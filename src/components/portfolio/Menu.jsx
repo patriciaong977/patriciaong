@@ -16,21 +16,24 @@ const Menu = [
     image: Work1,
     title: "Portfolio Website",
     category: "Personal",
-    Tech: "Javascript, HTML, CSS, React"
+    Tech: "Javascript, HTML, CSS, React",
+    link: "https://patriciaong977.github.io/"
   },
   {
     id: 2,
     image: Work2,
     title: "Compiler Project",
     category: "School",
-    Tech: "Python"
+    Tech: "Python",
+    link: "https://github.com/patriciaong977/compilerProject"
   },
   {
     id: 3,
     image: Work3,
     title: "BudgetMaster Web Application",
     category: "School",
-    Tech: "Javascript, HTML, CSS, React, MaterialUI"
+    Tech: "Javascript, HTML, CSS, React, MaterialUI",
+    link: "https://github.com/patriciaong977/budgetmaster"
   },
   ,
   {
@@ -38,7 +41,8 @@ const Menu = [
     image: Work4,
     title: "Skingredients iOS App",
     category: "School",
-    Tech: "Swift, Xcode"
+    Tech: "Swift, Xcode",
+    link: "https://github.com/patriciaong977/project-team-gr8"
   },
   ,
   {
@@ -46,7 +50,8 @@ const Menu = [
     image: Work5,
     title: "AutoOdo Android App",
     category: "School",
-    Tech: "Java, SQLite, Android Studio"
+    Tech: "Java, SQLite, Android Studio",
+    link: "https://github.com/patriciaong977/AutoOdo"
   },
   ,
   {
@@ -54,35 +59,40 @@ const Menu = [
     image: Work6,
     title: "University Database",
     category: "School",
-    Tech: "SQL, HTML, PHP"
+    Tech: "SQL, HTML, PHP",
+    link:"https://github.com/patriciaong977/UniversityDatabase"
   },
   {
     id: 7,
     image: Work7,
     title: "100-Days-of-Python",
     category: "Personal",
-    Tech: "Python, VSCode"
+    Tech: "Python, VSCode",
+    link: "https://github.com/patriciaong977/100-Days-of-Python"
   },
   {
     id: 8,
     image: Work8,
     title: "Blackjack Game",
     category: "Personal",
-    Tech: "Python, VSCode"
+    Tech: "Python, VSCode",
+    link: "https://github.com/patriciaong977/Blackjack-Capstone-Project"
   },
   {
     id: 9,
     image: Work9,
     title: "ExpenseTracker iOS App",
     category: "Personal",
-    Tech: "Swift, Xcode, SwiftUIFontIcon, SwiftUICharts"
+    Tech: "Swift, Xcode, SwiftUIFontIcon, SwiftUICharts",
+    link: "https://github.com/patriciaong977/ExpenseTrackerApp"
   },
   {
     id: 10,
     image: Work10,
     title: "Higher or Lower Game",
     category: "Personal",
-    Tech: "Python, VSCode"
+    Tech: "Python, VSCode",
+    link: "https://github.com/patriciaong977/Higher-or-Lower-Project"
   },
 
 ];
