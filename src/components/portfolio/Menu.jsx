@@ -73,7 +73,7 @@ const Menu = [
   {
     id: 9,
     image: Work9,
-    title: "Expense Tracker iOS App",
+    title: "ExpenseTracker iOS App",
     category: "Personal",
     Tech: "Swift, Xcode, SwiftUIFontIcon, SwiftUICharts"
   },
