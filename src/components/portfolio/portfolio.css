@@ -21,7 +21,83 @@
   gap: 1.875rem;
 }
 
-/*Responsive-ness*/
+.work__card {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+}
+.work_mask {
+  background: #da2b2b;  /* Doesn't change? */
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  transition: .3s;
+  opacity: 0;
+}
+
+.work__card:hover .work_mask {
+  opacity: 0.9;
+}
+
+.work__category {
+  color: #6c6ce5;
+  background-color: var(--first-color);
+  border-bottom-left-radius: 0.98rem;
+  border-bottom-right-radius: 0.98rem;
+  position: absolute;
+  top: 0;
+  left: 1.5 rem;
+  font-size: var(--small-font-size);
+  display: inline-block;
+  padding: 0.19rem 0.625rem;
+  transform: translateY(-40px);
+  transition: .3s;
+}
+
+.work__title {
+  color: #fff;
+  font-size: var(--h3-font-size);
+  margin: 0 0 0.98rem;
+  position: absolute;
+  top: 3.75rem;
+  transform: translateY(30px);
+  transition: .3s;
+  opacity: 0;
+}
+
+.work__button {
+  color: #fff;
+  position: absolute;
+  bottom: 1.5 rem;
+  left: 1.5 rem;
+  font-size: var(--h3-font-size);
+  display: block;
+  background-color: #ffd15c;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  transition: .3s;
+  opacity: 0;
+}
+
+.work__card:hover .work__button {
+  opacity: 1;
+}
+
+.work__card:hover .work__title,
+.work__card:hover .work__category {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+
+/* Responsive-ness
 @media screen and (max-width: 1024px) {
   .portfolio__filters {
     justify-content: center;
@@ -41,4 +117,4 @@
   .portfolio__filters {
     row-gap: 0.25rem;
   }
-}
+} */
