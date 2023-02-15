@@ -1,24 +1,33 @@
-import Work1 from "../../assets/Portfolio-Website.png";
-import Work2 from "../../assets/work-2.svg";
+import Work1 from "../../assets/reactjs.svg";
+import Work2 from "../../assets/python.svg";
+import Work3 from "../../assets/reactjs.svg";
+import Work4 from "../../assets/ios.svg";
+import Work5 from "../../assets/android.svg";
+import Work6 from "../../assets/sql.svg";
+import Work7 from "../../assets/python.svg";
+import Work8 from "../../assets/python.svg";
+import Work9 from "../../assets/ios.svg";
+import Work10 from "../../assets/python.svg"
+
 
 const Menu = [
   {
     id: 1,
-    // image: Work1,
+    image: Work1,
     title: "Portfolio Website",
     category: "Personal",
     Tech: "Javascript, HTML, CSS, React"
   },
   {
     id: 2,
-    // image: Work2,
+    image: Work2,
     title: "Compiler Project",
     category: "School",
     Tech: "Python"
   },
   {
     id: 3,
-    // image: Work3,
+    image: Work3,
     title: "BudgetMaster Web Application",
     category: "School",
     Tech: "Javascript, HTML, CSS, React, MaterialUI"
@@ -26,7 +35,7 @@ const Menu = [
   ,
   {
     id: 4,
-    // image: Work4,
+    image: Work4,
     title: "Skingredients iOS App",
     category: "School",
     Tech: "Swift, Xcode"
@@ -34,7 +43,7 @@ const Menu = [
   ,
   {
     id: 5,
-    // image: Work5,
+    image: Work5,
     title: "AutoOdo Android App",
     category: "School",
     Tech: "Java, SQLite, Android Studio"
@@ -42,35 +51,35 @@ const Menu = [
   ,
   {
     id: 6,
-    // image: Work6,
+    image: Work6,
     title: "University Database",
     category: "School",
-    Tech: "PHP, HTML, SQL"
+    Tech: "SQL, HTML, PHP"
   },
   {
     id: 7,
-    // image: ,
+    image: Work7,
     title: "100-Days-of-Python",
     category: "Personal",
     Tech: "Python, VSCode"
   },
   {
     id: 8,
-    // image: ,
+    image: Work8,
     title: "Blackjack Game",
     category: "Personal",
     Tech: "Python, VSCode"
   },
   {
     id: 9,
-    // image: ,
+    image: Work9,
     title: "Expense Tracker iOS App",
     category: "Personal",
     Tech: "Swift, Xcode, SwiftUIFontIcon, SwiftUICharts"
   },
   {
     id: 10,
-    // image: ,
+    image: Work10,
     title: "Higher or Lower Game",
     category: "Personal",
     Tech: "Python, VSCode"
