@@ -1,5 +1,4 @@
-.work__filters
-{
+.work__filters {
   display: flex;
   align-items: center;
   column-gap: 1.875rem;
@@ -39,7 +38,7 @@
 }
 
 .work__card:hover .work__mask {
-  opacity: 0.95;
+  opacity: 0.9;
 }
 
 .work__category {
