@@ -22,13 +22,14 @@ const Portfolio = () => {
         <span className="work__item" onClick={() => filterItem("Photography")}>Photography</span>
       </div>
 
+
       <div className="work__container grid">
         {items.map((elem) => {
-          const { id, image, title, category, Tech } = elem;
+          const { id, image, title, category } = elem;
           return (
             <div className="work__card" key={id}>
               <div className="work__thumbnail">
-                <img src={image} alt={title} className="work__img" />
+                <img src={image} alt="" className="work__img" />
                 <div className="work__mask"></div>
               </div>
 
