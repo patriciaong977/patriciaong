@@ -46,13 +46,14 @@
   height: 40px;
   width: 45px;
   background-color: var(--body-color);
-  border: 2px solid #e8dfec;
+  border: 2px solid var(--title-color);
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 1;
   transition: .3s;
 }
+
 
 /*Responsive-ness*/
 @media screen and (max-width: 1024px) {
