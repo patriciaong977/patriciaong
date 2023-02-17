@@ -2,6 +2,8 @@ import React, { useRef } from 'react';
 import "./contact.css";
 
 import emailjs from '@emailjs/browser';
+import { toast, ToastContainer } from 'react-toastify';
+import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
 
@@ -25,7 +27,19 @@ const Contact = () => {
         (error) => {
           console.log(error.text);
         }
-      );
+    );
+
+    toast('Email sent successfully! 📧',
+      {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "dark",
+      });
   };
 
   return (
@@ -48,12 +62,12 @@ const Contact = () => {
             </div>
 
             <div className="contact__form-div">
-              <input type="email" name="from_Email" className="contact__form-input" placeholder='Insert your email'required/>
+              <input type="email" name="from_Email" className="contact__form-input" placeholder='Insert your email' required/>
             </div>
           </div>
 
           <div className="contact__form-div">
-              <input type="text" name="from_Subject" className="contact__form-input" placeholder='Insert your subject'required/>
+              <input type="text" name="from_Subject" className="contact__form-input" placeholder='Insert your subject' required/>
           </div>
 
           <div className="contact__form-div contact__form-area">
@@ -61,6 +75,20 @@ const Contact = () => {
           </div>
 
           <button className="btn" type="submit" value="Send">Send Message! 💬</button>
+
+          <ToastContainer
+            position="top-center"
+            autoClose={5000}
+            hideProgressBar={false}
+            newestOnTop
+            closeOnClick
+            rtl={false}
+            pauseOnFocusLoss
+            draggable
+            pauseOnHover
+            theme="dark"
+          />
+
         </form>
       </div>
     </section>

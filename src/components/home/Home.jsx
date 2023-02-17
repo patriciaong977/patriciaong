@@ -36,11 +36,6 @@ const Home = () => {
             />
 
         <HeaderSocials />
-        <text className="home__description">✨ This site's still a work in progress! ✨ </text>
-
-        <br />
-        <br />
-
         <a href="#contact" className="btn">Contact Me! ✉ </a>
 
         <ScrollDown />
