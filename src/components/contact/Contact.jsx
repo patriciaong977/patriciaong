@@ -11,12 +11,21 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
-      .then((result) => {
+    emailjs
+      .sendForm(
+        'service_m2x58hc',
+        'template_e0sj7me',
+        form.current,
+        'WKlnj9Ib1VmnEcMWX')
+      .then(
+        (result) => {
           console.log(result.text);
-      }, (error) => {
+          console.log("Email sent successfully! 📧")
+        },
+        (error) => {
           console.log(error.text);
-      });
+        }
+      );
   };
 
   return (
@@ -26,28 +35,9 @@ const Contact = () => {
 
       <div className="contact__container grid">
         <div className="contact__info">
-          <h3 className="contact__title">Hello! THIS PAGE IS NOT USABLE YET. STILL A WORK IN PROGRESS👋 </h3>
           <p className="contact__details">I know forms are stinky. 🦨💨
             <br /> Send me an email instead! ¯\_(ツ)_/¯</p>
         </div>
-
-        {/* Contact Form
-      <form ref={form} onSubmit={sendEmail}>
-        <label>Name</label>
-        <input type="text" name="from_Name" />
-
-        <label>Email</label>
-        <input type="email" name="from_Email" />
-
-        <label>Subject</label>
-        <input type="text" name="from_Subject" />
-
-        <label>Message</label>
-        <textarea name="message" />
-
-        <input type="submit" value="Send" />
-        </form> */}
-
 
        {/* Contact Form */}
         <form action="" ref={form} onSubmit={sendEmail}  className="contact__form" >
