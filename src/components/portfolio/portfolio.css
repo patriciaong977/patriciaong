@@ -102,6 +102,7 @@
 
 .work__card:hover .work__button {
   opacity: 1;
+  animation: button-push 0.3s linear 1;
 }
 
 .work__card:hover .work__title,
