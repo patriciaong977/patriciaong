@@ -20,10 +20,9 @@ const About = () => {
             <p className="about__description">🙋🏻‍♀️ Hi! My name's Patricia. </p>
             <p className="about__description">👩🏻‍🎓 Recent Graduate of California State University, Fullerton with a Bachelor of Science in Computer Science.</p>
             <p className="about__description">🌇 Pursuing knowledge, experience, and connections to enhance my technical and professional skills.</p>
-            <p className="about__description">⚡ Fun fact: I like building Ikea furniture, and Gundam Models. As well as taking travel photos with my trusty Nikon D5300 or Iphone.</p>
-            <p className="about__description">👩🏻‍💻 I'm currently looking for a full-time position as a Software Engineer/Developer.</p>
+            <p className="about__description">⚡ Fun Facts: I enjoy building Ikea Furniture and Model building. I also enjoy playing boardgames with friends and family. 🍳 I currently picked up cooking as a hobby! Whenever I travel, I enjoy taking photos with my trusty Nikon D5300 📸 or Iphone. </p>
+            <p className="about__description">👩🏻‍💻 I'm currently looking for a full-time position as a Software Engineer/Developer where I can collaborate with others, learn new techniques and practices from senior engineers. Looking to pursue a Masters Degree in Software Engineering in the future. </p>
 
-            <br/>
 
             <a href={RFile} className="btn">Download Resume</a>
           </div>
@@ -31,28 +30,28 @@ const About = () => {
             <div className="skills__data">
               <div className="skills__titles">
                 <h3 className="skills__name">Programming Languages</h3>
-                <p className="skills__description">Python, SQL, Swift, HTML/CSS, JavaScript, C++</p>
+                <p className="skills__description">Python, SQL, Swift, HTML/CSS, JavaScript, C++, R</p>
               </div>
             </div>
 
             <div className="skills__data">
               <div className="skills__titles">
                 <h3 className="skills__name">Tools and Frameworks</h3>
-                <p className="skills__description">VS Code, XCode, Git, Github, PEGA Systems, MongoDB, MariaDB, SwiftUI, Node.js, React.js</p>
+                <p className="skills__description">VS Code, XCode, Git, Github, , MongoDB, MariaDB, SwiftUI, Node.js, React.js, Chart.js, RStudio, PEGA System</p>
               </div>
             </div>
 
             <div className="skills__data">
               <div className="skills__titles">
                 <h3 className="skills__name">Operating Systems</h3>
-                <p className="skills__description">Windows, macOS, Linux</p>
+                <p className="skills__description">Windows, macOS, Linux, Raspberry Pi</p>
               </div>
             </div>
 
             <div className="skills__data">
               <div className="skills__titles">
                 <h3 className="skills__name">Other relevant skills</h3>
-                <p className="skills__description">Agile Methodologies, Broadcom Rally, Visual Paradigm, Figma, Microsoft Office</p>
+                <p className="skills__description">Agile Methodologies, Broadcom Rally, Visual Paradigm, Figma, Microsoft Office, Mural Digital Whiteboard</p>
               </div>
             </div>
 
