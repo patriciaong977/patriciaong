@@ -1,10 +1,9 @@
 import React from 'react'
 import "./resume.css"
 
-
 const Resume = () => {
   return (
-    <section className="resume section">
+    <section className="resume container section" id='resume'>
       <h2 className="section__title">Resume</h2>
       {/* <span className="section__subtitle">How it's been so far.</span> */}
 
